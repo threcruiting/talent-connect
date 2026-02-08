@@ -6,72 +6,72 @@
 
 @layer base {
   :root {
-    --background: 220 20% 97%;
-    --foreground: 220 30% 12%;
+    --background: 220 15% 97%;
+    --foreground: 215 25% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 30% 12%;
+    --card-foreground: 215 25% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 30% 12%;
+    --popover-foreground: 215 25% 20%;
 
-    --primary: 220 40% 16%;
-    --primary-foreground: 42 80% 65%;
+    --primary: 215 25% 23%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 42 80% 65%;
-    --secondary-foreground: 220 40% 16%;
+    --secondary: 16 91% 55%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 220 15% 92%;
-    --muted-foreground: 220 10% 46%;
+    --muted-foreground: 215 15% 45%;
 
-    --accent: 42 80% 65%;
-    --accent-foreground: 220 40% 16%;
+    --accent: 16 91% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 220 15% 88%;
     --input: 220 15% 88%;
-    --ring: 42 80% 65%;
+    --ring: 16 91% 55%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 220 40% 16%;
+    --sidebar-background: 215 25% 23%;
     --sidebar-foreground: 220 15% 92%;
-    --sidebar-primary: 42 80% 65%;
-    --sidebar-primary-foreground: 220 40% 16%;
-    --sidebar-accent: 220 35% 22%;
+    --sidebar-primary: 16 91% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 22% 30%;
     --sidebar-accent-foreground: 220 15% 92%;
-    --sidebar-border: 220 30% 24%;
-    --sidebar-ring: 42 80% 65%;
+    --sidebar-border: 215 20% 32%;
+    --sidebar-ring: 16 91% 55%;
 
     --font-display: 'DM Serif Display', serif;
     --font-body: 'Inter', sans-serif;
 
-    --gradient-hero: linear-gradient(135deg, hsl(220 40% 12%) 0%, hsl(220 35% 22%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(42 80% 65%) 0%, hsl(38 70% 55%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(215 25% 18%) 0%, hsl(215 22% 28%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(16 91% 55%) 0%, hsl(10 85% 48%) 100%);
   }
 
   .dark {
-    --background: 220 40% 8%;
+    --background: 215 30% 10%;
     --foreground: 220 15% 92%;
-    --card: 220 35% 12%;
+    --card: 215 28% 14%;
     --card-foreground: 220 15% 92%;
-    --popover: 220 35% 12%;
+    --popover: 215 28% 14%;
     --popover-foreground: 220 15% 92%;
-    --primary: 42 80% 65%;
-    --primary-foreground: 220 40% 12%;
-    --secondary: 220 35% 18%;
+    --primary: 16 91% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 215 25% 20%;
     --secondary-foreground: 220 15% 92%;
-    --muted: 220 30% 16%;
-    --muted-foreground: 220 10% 55%;
-    --accent: 42 80% 65%;
-    --accent-foreground: 220 40% 12%;
+    --muted: 215 25% 18%;
+    --muted-foreground: 215 12% 55%;
+    --accent: 16 91% 55%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-    --border: 220 30% 20%;
-    --input: 220 30% 20%;
-    --ring: 42 80% 65%;
+    --border: 215 25% 22%;
+    --input: 215 25% 22%;
+    --ring: 16 91% 55%;
   }
 }
 
