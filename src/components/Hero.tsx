@@ -19,7 +19,7 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
             className="text-secondary font-semibold tracking-widest text-sm uppercase mb-6"
           >
-            Executive Recruiting & Search
+            Boutique Talent Advisory
           </motion.p>
 
           <motion.h1
@@ -28,9 +28,8 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-primary-foreground leading-tight mb-6"
           >
-            We Find the Leaders Who{" "}
-            <span className="text-secondary italic">Transform</span>{" "}
-            Your Business
+            Technical & Sales Talent That{" "}
+            <span className="text-secondary italic">Converts</span>
           </motion.h1>
 
           <motion.p
@@ -39,8 +38,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg text-primary-foreground/70 max-w-xl mb-10 font-light leading-relaxed"
           >
-            Connecting exceptional organizations with visionary talent through
-            our proven retained search methodology and deep industry expertise.
+            Tuhon Recruiting is a boutique talent advisory firm specializing in technical and sales roles. We partner closely with founders and talent leaders to define hiring priorities, align on candidate profiles, and execute focused searches that convert.
           </motion.p>
 
           <motion.div
