@@ -3,28 +3,28 @@ import { Search, Users, Target, Briefcase } from "lucide-react";
 
 const services = [
   {
-    icon: Search,
-    title: "Executive Search",
-    description:
-      "Retained search for C-suite and senior leadership positions across industries.",
-  },
-  {
     icon: Users,
-    title: "Board Recruitment",
+    title: "Brand Perception",
     description:
-      "Identifying independent directors and board members who bring strategic value.",
+      "Understand how candidates and the market perceive your employer brand to attract top-tier talent.",
   },
   {
-    icon: Target,
-    title: "Leadership Assessment",
+    icon: Search,
+    title: "Market Intelligence & Insights",
     description:
-      "Comprehensive evaluation of internal and external candidates for critical roles.",
+      "Competitive landscape analysis, compensation benchmarking, and talent mapping for informed decisions.",
   },
   {
     icon: Briefcase,
-    title: "Market Intelligence",
+    title: "Headcount Advisory",
     description:
-      "Competitive landscape analysis, compensation benchmarking, and talent mapping.",
+      "Strategic guidance on team structure, role prioritization, and hiring timelines aligned with your goals.",
+  },
+  {
+    icon: Target,
+    title: "Reduced Hiring Risk",
+    description:
+      "Rigorous vetting and alignment processes that ensure every hire is the right fit from day one.",
   },
 ];
 
