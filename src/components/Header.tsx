@@ -12,7 +12,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md border-b border-border/10">
       <div className="container mx-auto flex items-center justify-between h-16 px-6">
         <a href="#" className="font-display text-xl text-primary-foreground tracking-wide">
-          Ascend<span className="text-secondary">Search</span>
+          Tuhon<span className="text-secondary">Recruiting</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
