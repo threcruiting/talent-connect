@@ -9,7 +9,7 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="bg-primary py-16">
+    <section className="bg-secondary py-16">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, i) => (
@@ -21,10 +21,10 @@ const Stats = () => {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="text-center"
             >
-              <p className="font-display text-4xl lg:text-5xl text-secondary mb-2">
+              <p className="font-display text-4xl lg:text-5xl text-secondary-foreground mb-2">
                 {stat.value}
               </p>
-              <p className="text-primary-foreground/60 text-sm font-medium tracking-wide uppercase">
+              <p className="text-secondary-foreground/70 text-sm font-medium tracking-wide uppercase">
                 {stat.label}
               </p>
             </motion.div>

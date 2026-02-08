@@ -51,7 +51,7 @@ const Process = () => {
               transition={{ duration: 0.5, delay: i * 0.15 }}
               className="relative"
             >
-              <p className="font-display text-6xl text-secondary/20 mb-4">
+              <p className="font-display text-6xl text-secondary mb-4">
                 {step.number}
               </p>
               <h3 className="font-display text-xl text-foreground mb-3">
@@ -61,7 +61,7 @@ const Process = () => {
                 {step.description}
               </p>
               {i < steps.length - 1 && (
-                <div className="hidden md:block absolute top-8 right-0 w-1/2 h-px bg-border" />
+                <div className="hidden md:block absolute top-8 right-0 w-1/2 h-px bg-secondary/30" />
               )}
             </motion.div>
           ))}
