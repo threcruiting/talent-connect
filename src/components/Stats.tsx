@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "500+", label: "Placements Made" },
-  { value: "98%", label: "Client Retention" },
-  { value: "15+", label: "Years of Experience" },
-  { value: "30", label: "Days Avg. Time to Fill" },
+  { value: "15+", label: "Years of Recruiting Experience" },
+  { value: "1000+", label: "Candidates Evaluated" },
+  { value: "50+", label: "Executives Advised" },
+  { value: "10+", label: "Industries Served" },
 ];
 
 const Stats = () => {
