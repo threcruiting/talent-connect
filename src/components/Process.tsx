@@ -37,7 +37,7 @@ const Process = () => {
             How It Works
           </p>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-foreground">
-            Our Proven Process
+            Our Process
           </h2>
         </motion.div>
 
