@@ -28,8 +28,8 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-primary-foreground leading-tight mb-6"
           >
-            Technical & Sales Talent That{" "}
-            <span className="text-secondary italic">Converts</span>
+            Startup Talent{" "}
+            <span className="text-secondary italic">Advisory</span>
           </motion.h1>
 
           <motion.p
