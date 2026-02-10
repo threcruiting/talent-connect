@@ -28,6 +28,7 @@ const Header = () => {
           <Button
             size="sm"
             className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-semibold"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Get Started
           </Button>
@@ -60,7 +61,10 @@ const Header = () => {
                   {item}
                 </a>
               ))}
-              <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-semibold w-full">
+              <Button
+                className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-semibold w-full"
+                onClick={() => { setMenuOpen(false); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }}
+              >
                 Get Started
               </Button>
             </div>
