@@ -50,6 +50,7 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-semibold text-base px-8"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Start a Search
               <ArrowRight className="ml-2 h-5 w-5" />
