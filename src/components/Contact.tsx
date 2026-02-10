@@ -16,7 +16,7 @@ const Contact = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
@@ -26,12 +26,31 @@ const Contact = () => {
 
     setIsSubmitting(true);
 
-    // Simulate submission
-    setTimeout(() => {
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbz7kZnrpHtSnzY-XKypnlPR3zMRWaAE5iPTKpwLFNJcD1E40MUp4tcrkjkRzr67wh7E4Q/exec",
+        {
+          method: "POST",
+          headers: { "Content-Type": "text/plain" },
+          body: JSON.stringify({
+            name: formData.name.trim(),
+            email: formData.email.trim(),
+            type: formData.type,
+            message: formData.message.trim(),
+            timestamp: new Date().toISOString(),
+          }),
+        }
+      );
+
+      if (!response.ok) throw new Error("Failed to send");
+
       toast({ title: "Message sent!", description: "We'll get back to you shortly." });
       setFormData({ name: "", email: "", type: "founder", message: "" });
+    } catch {
+      toast({ title: "Something went wrong", description: "Please try again later.", variant: "destructive" });
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   return (
