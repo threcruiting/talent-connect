@@ -27,10 +27,11 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbz7kZnrpHtSnzY-XKypnlPR3zMRWaAE5iPTKpwLFNJcD1E40MUp4tcrkjkRzr67wh7E4Q/exec",
+      await fetch(
+        "https://script.google.com/a/macros/tuhonrecruiting.com/s/AKfycbz7kZnrpHtSnzY-XKypnlPR3zMRWaAE5iPTKpwLFNJcD1E40MUp4tcrkjkRzr67wh7E4Q/exec",
         {
           method: "POST",
+          mode: "no-cors",
           headers: { "Content-Type": "text/plain" },
           body: JSON.stringify({
             name: formData.name.trim(),
@@ -42,7 +43,7 @@ const Contact = () => {
         }
       );
 
-      if (!response.ok) throw new Error("Failed to send");
+      // no-cors mode doesn't expose response, so we assume success
 
       toast({ title: "Message sent!", description: "We'll get back to you shortly." });
       setFormData({ name: "", email: "", type: "founder", message: "" });
